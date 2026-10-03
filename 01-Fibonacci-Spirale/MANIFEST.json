@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "bundle_kind": "prepublication-product-plus-receipts",
+  "project": "italian-fibonacci",
+  "source_commit": "2f1f63d7",
+  "accepted_starchart_release": "starchart-dc86a38d0ce7",
+  "spec_sha256": "835f3957b162138ba88ccb1d8376de785958dd220c9941af15ad985fa23c3e6b",
+  "plan_sha256": "e8a44c24797b0e80ae81a34b6325c1c222a14f85b175f7a66ec2c6f788aee59a",
+  "beads": {
+    "parent": "LLM-ksk",
+    "luna": "LLM-ksk.1",
+    "sol": "LLM-ksk.2",
+    "comparison": "LLM-ksk.3"
+  },
+  "transactions": {
+    "luna": "factory-c30ea6bef562601f1d92a456aa4aede3",
+    "sol": "factory-8a2929aec03d3072fa2ec88957bd58e5",
+    "comparison": "factory-3015c1a86f9da8ab5ce78887aa8bb5cb"
+  },
+  "models": {
+    "luna_candidate": "gpt-6-luna",
+    "sol_candidate": "gpt-6-sol",
+    "quality": "gpt-6-sol"
+  },
+  "candidate_status": {
+    "luna": "implementation accepted",
+    "sol": "implementation accepted",
+    "canonical_selection": "pending independent comparison acceptance"
+  },
+  "inventory": "SHA256SUMS",
+  "verifier": "verification/verify.py",
+  "known_limits": [
+    "Sol had filename-level visibility of the previously materialized Luna directory.",
+    "The comparison worker lacked Aloeus-owned transaction exports and returned BLOCKED.",
+    "This bundle was collated on Aloeus and does not claim a canonical winner.",
+    "No monetary cost estimate is included."
+  ]
+}

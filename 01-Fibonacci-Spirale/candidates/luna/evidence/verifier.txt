@@ -1,0 +1,15 @@
+N=2: 2 quadrati, 2 archi; rettangolo 2x1; raster 17x9.
+N=3: 3 quadrati, 3 archi; rettangolo 2x3; raster 25x17.
+N=4: 4 quadrati, 4 archi; rettangolo 5x3; raster 41x25.
+N=5: 5 quadrati, 5 archi; rettangolo 5x8; raster 65x41.
+N=6: 6 quadrati, 6 archi; rettangolo 13x8; raster 105x65.
+N=7: 7 quadrati, 7 archi; rettangolo 13x21; raster 169x105.
+N=8: 8 quadrati, 8 archi; rettangolo 34x21; raster 273x169.
+N=9: 9 quadrati, 9 archi; rettangolo 34x55; raster 441x273.
+N=10: 10 quadrati, 10 archi; rettangolo 89x55; raster 713x441.
+N=11: 11 quadrati, 11 archi; rettangolo 89x144; raster 1153x713.
+N=12: 12 quadrati, 12 archi; rettangolo 233x144; raster 1865x1153.
+N=13: 13 quadrati, 13 archi; rettangolo 233x377; raster 3017x1865.
+N=14: 14 quadrati, 14 archi; rettangolo 610x377; raster 4881x3017.
+N=15: 15 quadrati, 15 archi; rettangolo 610x987; raster 7897x4881.
+N=16: 16 quadrati, 16 archi; rettangolo 1597x987; raster 12777x7897.

@@ -1,0 +1,31 @@
+{
+  "envelope": {
+    "schema_version": 1,
+    "attempt_id": "factory-3015c1a86f9da8ab5ce78887aa8bb5cb",
+    "work_order_id": "LLM-ksk.3",
+    "work_order_snapshot_digest": "915851d435110fc82257a67094c3913178498c0c0b59dd01c7ab80e1482e2c70",
+    "accepted_release_id": "starchart-dc86a38d0ce7",
+    "control_protocol_version": "1.0.0",
+    "control_schema_version": 1,
+    "task_input_identity": "a807737b428aa68451c27a4efc1b98580396e655",
+    "route": "SOL",
+    "adapter_protocol": "starchart-factory-v1",
+    "manager_role": "aloeus/manager",
+    "worker_role": "amoyensis/worker",
+    "model_policy_digest": "281d6984736536178156aa2c935d8bf7babe7de5d2073bd0a69749cce8e8339b",
+    "budget": {
+      "max_input_tokens": 2000000,
+      "max_cached_input_tokens": 2000000,
+      "max_uncached_input_tokens": 2000000,
+      "max_output_tokens": 24000,
+      "max_tool_output_bytes": 1048576,
+      "max_context_bytes": 0,
+      "max_context_tokens": 258400,
+      "max_latency_milliseconds": 900000,
+      "max_compactions": 1,
+      "max_invocation_count": 1
+    },
+    "evidence_namespace": "factory-3015c1a86f9da8ab5ce78887aa8bb5cb"
+  },
+  "digest": "917c503bd333c899f8fc817775db92938d627e3f6799f4b4326cd861cf52f1c6"
+}

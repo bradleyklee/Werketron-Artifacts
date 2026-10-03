@@ -1,0 +1,19 @@
+{
+  "bead_id": "LLM-ksk.1",
+  "commit_message": "Add isolated Luna Fibonacci candidate and evidence",
+  "exact_file_list": [
+    "projects/starchart-examples/italian-fibonacci/luna-candidate/PROCESS.md",
+    "projects/starchart-examples/italian-fibonacci/luna-candidate/README.md",
+    "projects/starchart-examples/italian-fibonacci/luna-candidate/accounting.json",
+    "projects/starchart-examples/italian-fibonacci/luna-candidate/evidence/braille-n6.txt",
+    "projects/starchart-examples/italian-fibonacci/luna-candidate/evidence/griglia-n6.txt",
+    "projects/starchart-examples/italian-fibonacci/luna-candidate/evidence/tests.txt",
+    "projects/starchart-examples/italian-fibonacci/luna-candidate/evidence/verifier.txt",
+    "projects/starchart-examples/italian-fibonacci/luna-candidate/input/PLAN.json",
+    "projects/starchart-examples/italian-fibonacci/luna-candidate/input/SPEC.md",
+    "projects/starchart-examples/italian-fibonacci/luna-candidate/input/bead.json",
+    "projects/starchart-examples/italian-fibonacci/luna-candidate/inventory.json",
+    "projects/starchart-examples/italian-fibonacci/luna-candidate/spirale_fibonacci.py",
+    "projects/starchart-examples/italian-fibonacci/luna-candidate/test_spirale_fibonacci.py"
+  ]
+}

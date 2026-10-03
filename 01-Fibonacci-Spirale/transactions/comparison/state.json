@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "provenance": {
+    "engine": "starchart",
+    "engine_version": "1.0.0",
+    "schema_version": 1,
+    "python_baseline": "python-writer-equivalence-v1",
+    "source_contract": "starchart-factory-v1",
+    "beads_version": "1.2.2",
+    "memory_version": "none",
+    "authority_boundary": "starchart-go;host=sandbox,model-egress,git-broker,beads-bytes"
+  },
+  "research_state": {
+    "program": "starchart-factory",
+    "values": {
+      "accepted_release_id": "starchart-dc86a38d0ce7",
+      "accepted_release_source_commit": "dc86a38d0ce7586f6bbbeb4fc1778b72ddcc4911",
+      "attempt_envelope_digest": "917c503bd333c899f8fc817775db92938d627e3f6799f4b4326cd861cf52f1c6",
+      "attempt_envelope_path": "/work/repo/sandbox/control-plane/factory/factory-3015c1a86f9da8ab5ce78887aa8bb5cb/state.json.envelope.json",
+      "budget_provenance": "factory-default-envelope",
+      "build_mode": "none",
+      "claimed_bead": "LLM-ksk.3",
+      "control_plane_commit": "a807737b428aa68451c27a4efc1b98580396e655",
+      "controller": "starchart-go",
+      "creation_intent_path": "/work/repo/sandbox/control-plane/factory/factory-3015c1a86f9da8ab5ce78887aa8bb5cb/state.json.creation-intent.json",
+      "dispatch_mode": "native-bootstrap-v1",
+      "model_policy_source": "bead-model-envelope",
+      "qa_model": "gpt-6-sol",
+      "repository_commit": "a807737b428aa68451c27a4efc1b98580396e655",
+      "route": "SOL",
+      "scope": "LLM-ksk.3",
+      "work_class": "research",
+      "work_order_snapshot_digest": "915851d435110fc82257a67094c3913178498c0c0b59dd01c7ab80e1482e2c70",
+      "work_order_snapshot_path": "/work/repo/sandbox/control-plane/factory/factory-3015c1a86f9da8ab5ce78887aa8bb5cb/state.json.work-order.json",
+      "worker_blocked_reason": "Final publication requires missing transaction evidence and an independent Quality verdict plus manager acceptance, which this worker cannot provide.",
+      "worker_decision_needed": "Can Aloeus supply the immutable transaction exports and complete independent Quality review plus manager acceptance?",
+      "worker_model": "gpt-6-luna"
+    }
+  },
+  "control_state": {
+    "transaction_id": "factory-3015c1a86f9da8ab5ce78887aa8bb5cb",
+    "phase": "BLOCKED",
+    "limits": {
+      "max_input_tokens": 2000000,
+      "max_cached_input_tokens": 2000000,
+      "max_uncached_input_tokens": 2000000,
+      "max_output_tokens": 24000,
+      "max_tool_output_bytes": 1048576,
+      "max_context_bytes": 0,
+      "max_context_tokens": 258400,
+      "max_latency_milliseconds": 900000,
+      "max_compactions": 1,
+      "max_invocation_count": 1
+    },
+    "aggregate_limits": {
+      "max_input_tokens": 2000000,
+      "max_cached_input_tokens": 2000000,
+      "max_uncached_input_tokens": 2000000,
+      "max_output_tokens": 24000,
+      "max_tool_output_bytes": 1048576,
+      "max_context_bytes": 0,
+      "max_context_tokens": 258400,
+      "max_latency_milliseconds": 900000,
+      "max_compactions": 1,
+      "max_invocation_count": 1
+    },
+    "sequence": 5,
+    "edges": [
+      {
+        "id": "factory-3015c1a86f9da8ab5ce78887aa8bb5cb:registered",
+        "event": "work-order-registered",
+        "from": "START",
+        "to": "REGISTERED",
+        "legal": true,
+        "sequence": 1,
+        "route": "NO_MODEL",
+        "accounting": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "uncached_input_tokens": 0,
+          "output_tokens": 0,
+          "tool_output_bytes": 0,
+          "context_bytes": null,
+          "latency_milliseconds": 0,
+          "compactions": 0,
+          "invocation_count": 0,
+          "outcome": "exact-target-claimable"
+        }
+      },
+      {
+        "id": "factory-3015c1a86f9da8ab5ce78887aa8bb5cb:ready",
+        "event": "bead-ready",
+        "from": "REGISTERED",
+        "to": "WORKER_READY",
+        "legal": true,
+        "sequence": 2,
+        "route": "SOL",
+        "accounting": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "uncached_input_tokens": 0,
+          "output_tokens": 0,
+          "tool_output_bytes": 0,
+          "context_bytes": null,
+          "latency_milliseconds": 0,
+          "compactions": 0,
+          "invocation_count": 0,
+          "outcome": "claimed"
+        }
+      },
+      {
+        "id": "factory-3015c1a86f9da8ab5ce78887aa8bb5cb:worker-launch-pending:LLM-ksk.3",
+        "event": "worker-launch-pending",
+        "from": "WORKER_READY",
+        "to": "WORKER_LAUNCH_PENDING",
+        "legal": true,
+        "sequence": 3,
+        "route": "NO_MODEL",
+        "accounting": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "uncached_input_tokens": 0,
+          "output_tokens": 0,
+          "tool_output_bytes": 0,
+          "context_bytes": null,
+          "latency_milliseconds": 0,
+          "compactions": 0,
+          "invocation_count": 0,
+          "outcome": "worker-launch-pending"
+        }
+      },
+      {
+        "id": "factory-3015c1a86f9da8ab5ce78887aa8bb5cb:worker-started:LLM-ksk.3",
+        "event": "worker-started",
+        "from": "WORKER_LAUNCH_PENDING",
+        "to": "WORKER_RUNNING",
+        "legal": true,
+        "sequence": 4,
+        "route": "SOL",
+        "accounting": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "uncached_input_tokens": 0,
+          "output_tokens": 0,
+          "tool_output_bytes": 0,
+          "context_bytes": null,
+          "latency_milliseconds": 0,
+          "compactions": 0,
+          "invocation_count": 0,
+          "worker_model": "gpt-6-luna",
+          "qa_model": "gpt-6-sol",
+          "outcome": "worker-session-established"
+        }
+      },
+      {
+        "id": "factory-3015c1a86f9da8ab5ce78887aa8bb5cb:worker-blocked:LLM-ksk.3",
+        "event": "worker-blocked",
+        "from": "WORKER_RUNNING",
+        "to": "BLOCKED",
+        "legal": true,
+        "sequence": 5,
+        "route": "SOL",
+        "accounting": {
+          "input_tokens": 1198338,
+          "cached_input_tokens": 1113600,
+          "uncached_input_tokens": 84738,
+          "output_tokens": 13702,
+          "tool_output_bytes": 0,
+          "context_bytes": null,
+          "latency_milliseconds": 321798,
+          "compactions": 0,
+          "invocation_count": 1,
+          "worker_model": "gpt-6-luna",
+          "qa_model": "gpt-6-sol",
+          "outcome": "blocked"
+        }
+      }
+    ],
+    "replay": {
+      "factory-3015c1a86f9da8ab5ce78887aa8bb5cb:ready": "27f5846d16240cf545fbb00fa918d2da152e38dd3e0a036132d268a527cedb72",
+      "factory-3015c1a86f9da8ab5ce78887aa8bb5cb:registered": "65b97a756da161b3bc4a06935a5e0d7157d7223d4d94cdee6d420d98416d53cc",
+      "factory-3015c1a86f9da8ab5ce78887aa8bb5cb:worker-blocked:LLM-ksk.3": "9ee3652dbf82e77a96914fdd00d6b853fbc01d4f59a2dc20bd6a62e3ba21f13b",
+      "factory-3015c1a86f9da8ab5ce78887aa8bb5cb:worker-launch-pending:LLM-ksk.3": "124f6506e362ccde37ae59999e8b2b552e925e0107b7f61d9f9fcc3992882fa7",
+      "factory-3015c1a86f9da8ab5ce78887aa8bb5cb:worker-started:LLM-ksk.3": "f42338aa2af025f5777a14c0430eed1bd1df308afc56ca728da2bb3c767e83d8"
+    }
+  },
+  "dispatch_receipt": {
+    "binding": {
+      "attempt_id": "factory-3015c1a86f9da8ab5ce78887aa8bb5cb",
+      "release_id": "starchart-dc86a38d0ce7",
+      "task_input_identity": "a807737b428aa68451c27a4efc1b98580396e655",
+      "protocol_version": "1.0.0",
+      "route": "SOL",
+      "evidence_namespace": "factory-3015c1a86f9da8ab5ce78887aa8bb5cb"
+    },
+    "dispatch_id": "factory-3015c1a86f9da8ab5ce78887aa8bb5cb:worker-launch-pending:LLM-ksk.3",
+    "accepted_at": "2026-10-03T12:20:21.30161005Z",
+    "digest": "3468128faac491824fd75bd1428bcc7c29efe3c9e07679296387c8ec1ea5a105"
+  },
+  "invocation_consumed_dispatch_id": "factory-3015c1a86f9da8ab5ce78887aa8bb5cb:worker-launch-pending:LLM-ksk.3",
+  "worker_session_receipt": {
+    "binding": {
+      "attempt_id": "factory-3015c1a86f9da8ab5ce78887aa8bb5cb",
+      "release_id": "starchart-dc86a38d0ce7",
+      "task_input_identity": "a807737b428aa68451c27a4efc1b98580396e655",
+      "protocol_version": "1.0.0",
+      "route": "SOL",
+      "evidence_namespace": "factory-3015c1a86f9da8ab5ce78887aa8bb5cb"
+    },
+    "session_id": "01a101b7-9745-71d1-9098-d7d3a011b818",
+    "invocation_id": "factory-3015c1a86f9da8ab5ce78887aa8bb5cb:worker-launch-pending:LLM-ksk.3",
+    "session_state": "durable",
+    "digest": "654440777a569490db3b87b4ba6915971b531434879085fd72c1f882ccdb455e"
+  },
+  "result_receipt": {
+    "binding": {
+      "attempt_id": "factory-3015c1a86f9da8ab5ce78887aa8bb5cb",
+      "release_id": "starchart-dc86a38d0ce7",
+      "task_input_identity": "a807737b428aa68451c27a4efc1b98580396e655",
+      "protocol_version": "1.0.0",
+      "route": "SOL",
+      "evidence_namespace": "factory-3015c1a86f9da8ab5ce78887aa8bb5cb"
+    },
+    "session_id": "01a101b7-9745-71d1-9098-d7d3a011b818",
+    "invocation_id": "factory-3015c1a86f9da8ab5ce78887aa8bb5cb:worker-launch-pending:LLM-ksk.3",
+    "result_sha256": "4ea7fc1c4c70797f5b169d2b34e539881224d0981c38c96fbc514863f7af651a",
+    "digest": "fc158f77c444e35596afa3f71b3c1c483dcb262d7d05a498d0a83e26ea1712c0"
+  },
+  "namespace_proof": {
+    "attempt_namespace": "factory-3015c1a86f9da8ab5ce78887aa8bb5cb",
+    "evidence_namespace": "factory-3015c1a86f9da8ab5ce78887aa8bb5cb"
+  }
+}

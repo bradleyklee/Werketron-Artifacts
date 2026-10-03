@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "transaction_id": "factory-8a2929aec03d3072fa2ec88957bd58e5",
+  "bead_id": "LLM-ksk.2",
+  "review_identity": "factory-8a2929aec03d3072fa2ec88957bd58e5-attempt-1",
+  "attempt": 1,
+  "next_attempt": 2,
+  "created_at": "2026-10-03T12:16:01Z"
+}

@@ -1,0 +1,67 @@
+{
+  "bead_id": "LLM-ksk.1",
+  "transaction_id": "factory-c30ea6bef562601f1d92a456aa4aede3",
+  "files": [
+    {
+      "path": "PROCESS.md",
+      "sha256": "20ab0a410ed884f6b2896014687836cdbe18d704de82c2edda3aef434ab7d4fd",
+      "bytes": 1130
+    },
+    {
+      "path": "README.md",
+      "sha256": "f752f0e5f76230d6db1ab2bd06c4252341136fa1f6872de7bf9ac9988680af9a",
+      "bytes": 1660
+    },
+    {
+      "path": "accounting.json",
+      "sha256": "6842f9b6fc19353306b20cec8c90660ef1b5460f97088d653d287caacdeffc6e",
+      "bytes": 249
+    },
+    {
+      "path": "evidence/braille-n6.txt",
+      "sha256": "c2a0cb8825d02d22004a56bac0c047ea918692047fec2d8104619ef63b635cca",
+      "bytes": 2720
+    },
+    {
+      "path": "evidence/griglia-n6.txt",
+      "sha256": "702852d73ea87a1c0ba7ce97cdc462b19290e37ca2a3eddbecdd9aa2d1b3b790",
+      "bytes": 135
+    },
+    {
+      "path": "evidence/tests.txt",
+      "sha256": "26c382145cbb07a3df31ecf24acc1fd78d8cf1b173ae51f09136a7bfec7e5860",
+      "bytes": 647
+    },
+    {
+      "path": "evidence/verifier.txt",
+      "sha256": "0608f6dabe5990980bcbacfbda0f80e364716db4faff63805a771ac48a254a44",
+      "bytes": 926
+    },
+    {
+      "path": "input/PLAN.json",
+      "sha256": "e8a44c24797b0e80ae81a34b6325c1c222a14f85b175f7a66ec2c6f788aee59a",
+      "bytes": 4791
+    },
+    {
+      "path": "input/SPEC.md",
+      "sha256": "835f3957b162138ba88ccb1d8376de785958dd220c9941af15ad985fa23c3e6b",
+      "bytes": 5745
+    },
+    {
+      "path": "input/bead.json",
+      "sha256": "1dc286f32d85dc20af9a9091c5416493c881295333ca19f70affb49eb4ca7c63",
+      "bytes": 4617
+    },
+    {
+      "path": "spirale_fibonacci.py",
+      "sha256": "2d841a2ed10b2af88430c0905adbd5bffba09b88a7a96ec6a81c7f59de6d6fb2",
+      "bytes": 10814
+    },
+    {
+      "path": "test_spirale_fibonacci.py",
+      "sha256": "f1f8333c31761cf6498b51675741000c9bb3da0245f38d6289ef103e45c3d9ac",
+      "bytes": 2475
+    }
+  ],
+  "inventory_self_digest": "excluded"
+}

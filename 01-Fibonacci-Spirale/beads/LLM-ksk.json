@@ -1,0 +1,28 @@
+[
+  {
+    "id": "LLM-ksk",
+    "title": "Italian Fibonacci controlled model comparison",
+    "description": "Run Italian Fibonacci as a controlled product exercise through the accepted STARCHART rail, comparing isolated Luna and Sol candidates from one frozen SPEC and delivering a self-contained public product-plus-receipts bundle.",
+    "design": "Two isolated implementation transactions receive identical inputs; a separate verification unit compares correctness, process, accounting, and provenance without changing the accepted STARCHART runtime.",
+    "acceptance_criteria": "Independent Quality accepts a canonical product; raw Beads and transaction records, available accounting, process notes, reproducible verification, final artifacts, manifest links, and SHA-256 digests form a distribution-quality evidence directory.",
+    "spec_id": "projects/starchart-examples/italian-fibonacci/SPEC.md",
+    "status": "open",
+    "priority": 1,
+    "issue_type": "feature",
+    "assignee": "aloeus/manager",
+    "owner": "bradley@aloeus",
+    "created_at": "2026-10-03T10:42:37Z",
+    "created_by": "aloeus/manager",
+    "updated_at": "2026-10-03T10:42:37Z",
+    "labels": [
+      "italian-fibonacci",
+      "model-comparison",
+      "product-proof",
+      "public-evidence",
+      "starchart"
+    ],
+    "dependent_count": 3,
+    "dependency_count": 0,
+    "comment_count": 0
+  }
+]

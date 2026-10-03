@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "transaction_id": "factory-8a2929aec03d3072fa2ec88957bd58e5",
+  "bead_id": "LLM-ksk.2",
+  "base_commit": "b4f98df8236edcd9f52a98fcf724cb34fad69cd8",
+  "candidate_commit": "a807737b428aa68451c27a4efc1b98580396e655",
+  "decision": "ACCEPT",
+  "artifact_manifest_sha256": "3d076a0c33dd5a01955cca3297806cd6690333f66bbdbb4c20f3eae20225498c",
+  "manager_verdict_sha256": "c5c80ca6455b0d84711efce2e5f3cf9277518677c500a5564d57dd08cb3ffebe",
+  "published": true,
+  "promotion_mode": "exact-base",
+  "intervening_paths": []
+}

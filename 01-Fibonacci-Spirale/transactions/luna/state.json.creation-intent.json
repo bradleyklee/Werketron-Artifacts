@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "attempt_id": "factory-c30ea6bef562601f1d92a456aa4aede3",
+  "work_order_id": "LLM-ksk.1",
+  "accepted_release_id": "starchart-dc86a38d0ce7",
+  "envelope_digest": "2d9dc5e4dd6c28b7febae421cedfbf71781a338282eb1e0bdf4bf02fd2867520",
+  "snapshot_digest": "3819123a2728afed5cebfb31c817ae107875db619f9fccf403e866e889ca9713",
+  "state_path": "/work/repo/sandbox/control-plane/factory/factory-c30ea6bef562601f1d92a456aa4aede3/state.json",
+  "snapshot_path": "/work/repo/sandbox/control-plane/factory/factory-c30ea6bef562601f1d92a456aa4aede3/state.json.work-order.json",
+  "envelope_path": "/work/repo/sandbox/control-plane/factory/factory-c30ea6bef562601f1d92a456aa4aede3/state.json.envelope.json",
+  "claim": {
+    "bead_id": "LLM-ksk.1",
+    "work_class": "code",
+    "route": "SOL"
+  },
+  "phase": "STATE_PERSISTED"
+}

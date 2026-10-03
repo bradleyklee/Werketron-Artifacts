@@ -1,0 +1,14 @@
+{
+  "bead_id": "LLM-ksk.2",
+  "commit_message": "Add isolated Italian Fibonacci Sol candidate and verification evidence",
+  "exact_file_list": [
+    "projects/starchart-examples/italian-fibonacci/sol-candidate/factory-8a2929aec03d3072fa2ec88957bd58e5/PLAN.json",
+    "projects/starchart-examples/italian-fibonacci/sol-candidate/factory-8a2929aec03d3072fa2ec88957bd58e5/README.md",
+    "projects/starchart-examples/italian-fibonacci/sol-candidate/factory-8a2929aec03d3072fa2ec88957bd58e5/SPEC.md",
+    "projects/starchart-examples/italian-fibonacci/sol-candidate/factory-8a2929aec03d3072fa2ec88957bd58e5/bead.txt",
+    "projects/starchart-examples/italian-fibonacci/sol-candidate/factory-8a2929aec03d3072fa2ec88957bd58e5/inventory.json",
+    "projects/starchart-examples/italian-fibonacci/sol-candidate/factory-8a2929aec03d3072fa2ec88957bd58e5/spirale_fibonacci.py",
+    "projects/starchart-examples/italian-fibonacci/sol-candidate/factory-8a2929aec03d3072fa2ec88957bd58e5/verifica.log",
+    "projects/starchart-examples/italian-fibonacci/sol-candidate/factory-8a2929aec03d3072fa2ec88957bd58e5/verificatore.py"
+  ]
+}

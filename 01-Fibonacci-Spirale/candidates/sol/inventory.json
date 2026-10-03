@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "bead_id": "LLM-ksk.2",
+  "transaction_id": "factory-8a2929aec03d3072fa2ec88957bd58e5",
+  "declared_worker_model": "gpt-6-sol",
+  "accounting": null,
+  "accounting_note": "Nessun campo di accounting STARCHART disponibile al worker; conservare i dati grezzi del dispatcher.",
+  "files": {
+    "SPEC.md": "835f3957b162138ba88ccb1d8376de785958dd220c9941af15ad985fa23c3e6b",
+    "PLAN.json": "e8a44c24797b0e80ae81a34b6325c1c222a14f85b175f7a66ec2c6f788aee59a",
+    "bead.txt": "f79fdc9710d58b27f65e7f49ddd566002d2a297208772ba2b329974191806393",
+    "spirale_fibonacci.py": "c6439ec03cb8799f92a74d29c38b59addf0f3a68aaa6f3e018eae78e3efade66",
+    "verificatore.py": "8f9287027e5a667bb2d48c5c436ebe0d57e5ecc4bd1a9a85ba9ee872e1939897",
+    "verifica.log": "3a796313aaff8831e0fce2e579a5e1ddfdaac2a69832506a74f9c9d01b61ac69",
+    "README.md": "70283a25db144f75c00cbdab07cb099f3bf97e58d699ee5789365f42ffb5cc60"
+  }
+}

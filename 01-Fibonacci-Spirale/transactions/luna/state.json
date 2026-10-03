@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "provenance": {
+    "engine": "starchart",
+    "engine_version": "1.0.0",
+    "schema_version": 1,
+    "python_baseline": "python-writer-equivalence-v1",
+    "source_contract": "starchart-factory-v1",
+    "beads_version": "1.2.2",
+    "memory_version": "none",
+    "authority_boundary": "starchart-go;host=sandbox,model-egress,git-broker,beads-bytes"
+  },
+  "research_state": {
+    "program": "starchart-factory",
+    "values": {
+      "accepted_release_id": "starchart-dc86a38d0ce7",
+      "accepted_release_source_commit": "dc86a38d0ce7586f6bbbeb4fc1778b72ddcc4911",
+      "attempt_envelope_digest": "2d9dc5e4dd6c28b7febae421cedfbf71781a338282eb1e0bdf4bf02fd2867520",
+      "attempt_envelope_path": "/work/repo/sandbox/control-plane/factory/factory-c30ea6bef562601f1d92a456aa4aede3/state.json.envelope.json",
+      "budget_provenance": "factory-default-envelope",
+      "build_mode": "none",
+      "claimed_bead": "LLM-ksk.1",
+      "control_plane_commit": "2f1f63d75f05ad1b4f10fbf7b06e1ac37c78cc3f",
+      "controller": "starchart-go",
+      "creation_intent_path": "/work/repo/sandbox/control-plane/factory/factory-c30ea6bef562601f1d92a456aa4aede3/state.json.creation-intent.json",
+      "dispatch_mode": "native-bootstrap-v1",
+      "manager_verdict": "ACCEPT",
+      "manager_verdict_oracles": "[{\"oracle\":\"Candidate, manifest, and frozen-input identity\",\"passed\":true,\"evidence\":\"Literal candidate directory exists; HEAD b4f98df8236edcd9f52a98fcf724cb34fad69cd8 matches the packet and manifest; artifact manifest SHA-256 matches; all 13 listed candidate file digests match; frozen SPEC SHA-256 835f3957b162138ba88ccb1d8376de785958dd220c9941af15ad985fa23c3e6b and copied SPEC bytes match; copied Bead acceptance fields match the packet.\"},{\"oracle\":\"Luna implementation and transaction isolation\",\"passed\":true,\"evidence\":\"Manifest lists only the transaction-scoped luna-candidate product; worker result and process notes identify gpt-6-luna and report no Sol-candidate access or STARCHART rebuild. Transaction state binds LLM-ksk.1 to accepted release starchart-dc86a38d0ce7; active release pointer and recorded manifest digest match.\"},{\"oracle\":\"Durable program, tests, verifier output, inventory, and limitations\",\"passed\":true,\"evidence\":\"Manifest-listed program, test module, README, PROCESS.md, tests.txt, verifier.txt, sample Braille and ASCII outputs, accounting.json, and inventory.json are present with matching digests. All 12 inventory entries match file SHA-256 and byte counts. README and worker result state geometry, canvas-growth, and accounting limitations.\"},{\"oracle\":\"Deterministic frozen-SPEC checks\",\"passed\":true,\"evidence\":\"Worker trace binds the final source to a passing five-test run; recorded verifier.txt reports N=2 through N=16 passing and trace records N=20 --verifica passing. Source verifier covers Fibonacci sides and rectangle, disjoint squares, arc radii and containment, shared endpoints and tangents, raster connectivity, shared global transform, and N+1 geometric prefix. Recorded N=6 Braille output has uniform width, Braille-only characters, and occupied outer rows; ASCII grid output is present.\"},{\"oracle\":\"Exact accounting without invented monetary figures\",\"passed\":true,\"evidence\":\"Packet-hashed metrics.json and state.json agree on 2,170,996 input tokens, 2,072,320 cached input tokens, 98,676 uncached input tokens, 25,888 output tokens, 557,434 ms latency, and one invocation. State records budget-exceeded, which does not void completed QA. Candidate accounting.json explicitly records worker-side accounting unavailable as null; no monetary cost is estimated.\"}]",
+      "manager_verdict_reason": "The exact Luna candidate and frozen inputs match the supplied manifests; the recorded focused tests and deterministic verifier checks pass, the artifact inventory and limitations are durable, and measured transaction accounting is preserved without invented costs.",
+      "manager_verdict_sha256": "f56e364c4e27cb930f2b5fdf7f576c05fc12accc43526f90c30e027518796c99",
+      "model_policy_source": "bead-model-envelope",
+      "qa_model": "gpt-6-sol",
+      "repository_commit": "2f1f63d75f05ad1b4f10fbf7b06e1ac37c78cc3f",
+      "route": "SOL",
+      "scope": "LLM-ksk.1",
+      "work_class": "code",
+      "work_order_snapshot_digest": "3819123a2728afed5cebfb31c817ae107875db619f9fccf403e866e889ca9713",
+      "work_order_snapshot_path": "/work/repo/sandbox/control-plane/factory/factory-c30ea6bef562601f1d92a456aa4aede3/state.json.work-order.json",
+      "worker_model": "gpt-6-luna"
+    }
+  },
+  "control_state": {
+    "transaction_id": "factory-c30ea6bef562601f1d92a456aa4aede3",
+    "phase": "ACCEPTED",
+    "limits": {
+      "max_input_tokens": 2000000,
+      "max_cached_input_tokens": 2000000,
+      "max_uncached_input_tokens": 2000000,
+      "max_output_tokens": 24000,
+      "max_tool_output_bytes": 1048576,
+      "max_context_bytes": 0,
+      "max_context_tokens": 258400,
+      "max_latency_milliseconds": 900000,
+      "max_compactions": 1,
+      "max_invocation_count": 1
+    },
+    "aggregate_limits": {
+      "max_input_tokens": 2000000,
+      "max_cached_input_tokens": 2000000,
+      "max_uncached_input_tokens": 2000000,
+      "max_output_tokens": 24000,
+      "max_tool_output_bytes": 1048576,
+      "max_context_bytes": 0,
+      "max_context_tokens": 258400,
+      "max_latency_milliseconds": 900000,
+      "max_compactions": 1,
+      "max_invocation_count": 1
+    },
+    "sequence": 11,
+    "edges": [
+      {
+        "id": "factory-c30ea6bef562601f1d92a456aa4aede3:registered",
+        "event": "work-order-registered",
+        "from": "START",
+        "to": "REGISTERED",
+        "legal": true,
+        "sequence": 1,
+        "route": "NO_MODEL",
+        "accounting": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "uncached_input_tokens": 0,
+          "output_tokens": 0,
+          "tool_output_bytes": 0,
+          "context_bytes": null,
+          "latency_milliseconds": 0,
+          "compactions": 0,
+          "invocation_count": 0,
+          "outcome": "exact-target-claimable"
+        }
+      },
+      {
+        "id": "factory-c30ea6bef562601f1d92a456aa4aede3:ready",
+        "event": "bead-ready",
+        "from": "REGISTERED",
+        "to": "WORKER_READY",
+        "legal": true,
+        "sequence": 2,
+        "route": "SOL",
+        "accounting": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "uncached_input_tokens": 0,
+          "output_tokens": 0,
+          "tool_output_bytes": 0,
+          "context_bytes": null,
+          "latency_milliseconds": 0,
+          "compactions": 0,
+          "invocation_count": 0,
+          "outcome": "claimed"
+        }
+      },
+      {
+        "id": "factory-c30ea6bef562601f1d92a456aa4aede3:worker-launch-pending:LLM-ksk.1",
+        "event": "worker-launch-pending",
+        "from": "WORKER_READY",
+        "to": "WORKER_LAUNCH_PENDING",
+        "legal": true,
+        "sequence": 3,
+        "route": "NO_MODEL",
+        "accounting": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "uncached_input_tokens": 0,
+          "output_tokens": 0,
+          "tool_output_bytes": 0,
+          "context_bytes": null,
+          "latency_milliseconds": 0,
+          "compactions": 0,
+          "invocation_count": 0,
+          "outcome": "worker-launch-pending"
+        }
+      },
+      {
+        "id": "factory-c30ea6bef562601f1d92a456aa4aede3:worker-started:LLM-ksk.1",
+        "event": "worker-started",
+        "from": "WORKER_LAUNCH_PENDING",
+        "to": "WORKER_RUNNING",
+        "legal": true,
+        "sequence": 4,
+        "route": "SOL",
+        "accounting": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "uncached_input_tokens": 0,
+          "output_tokens": 0,
+          "tool_output_bytes": 0,
+          "context_bytes": null,
+          "latency_milliseconds": 0,
+          "compactions": 0,
+          "invocation_count": 0,
+          "worker_model": "gpt-6-luna",
+          "qa_model": "gpt-6-sol",
+          "outcome": "worker-session-established"
+        }
+      },
+      {
+        "id": "factory-c30ea6bef562601f1d92a456aa4aede3:worker-complete:LLM-ksk.1",
+        "event": "worker-complete",
+        "from": "WORKER_RUNNING",
+        "to": "WORKER_COMPLETE",
+        "legal": true,
+        "sequence": 5,
+        "route": "SOL",
+        "accounting": {
+          "input_tokens": 2170996,
+          "cached_input_tokens": 2072320,
+          "uncached_input_tokens": 98676,
+          "output_tokens": 25888,
+          "tool_output_bytes": 0,
+          "context_bytes": null,
+          "latency_milliseconds": 557434,
+          "compactions": 0,
+          "invocation_count": 1,
+          "worker_model": "gpt-6-luna",
+          "qa_model": "gpt-6-sol",
+          "outcome": "budget-exceeded",
+          "budget_exceeded": true
+        }
+      },
+      {
+        "id": "factory-c30ea6bef562601f1d92a456aa4aede3:broker-committed",
+        "event": "broker-committed",
+        "from": "WORKER_COMPLETE",
+        "to": "BROKERED",
+        "legal": true,
+        "sequence": 6,
+        "route": "NO_MODEL",
+        "accounting": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "uncached_input_tokens": 0,
+          "output_tokens": 0,
+          "tool_output_bytes": 0,
+          "context_bytes": null,
+          "latency_milliseconds": 0,
+          "compactions": 0,
+          "invocation_count": 0,
+          "outcome": "artifact handoff committed"
+        }
+      },
+      {
+        "id": "factory-c30ea6bef562601f1d92a456aa4aede3:artifact-returned",
+        "event": "artifact-returned",
+        "from": "BROKERED",
+        "to": "TRANSPORTED",
+        "legal": true,
+        "sequence": 7,
+        "route": "NO_MODEL",
+        "accounting": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "uncached_input_tokens": 0,
+          "output_tokens": 0,
+          "tool_output_bytes": 0,
+          "context_bytes": null,
+          "latency_milliseconds": 0,
+          "compactions": 0,
+          "invocation_count": 0,
+          "outcome": "artifact collection returned"
+        }
+      },
+      {
+        "id": "factory-c30ea6bef562601f1d92a456aa4aede3:manager-review:LLM-ksk.1",
+        "event": "manager-review",
+        "from": "TRANSPORTED",
+        "to": "MANAGER_REVIEW",
+        "legal": true,
+        "sequence": 8,
+        "route": "NO_MODEL",
+        "accounting": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "uncached_input_tokens": 0,
+          "output_tokens": 0,
+          "tool_output_bytes": 0,
+          "context_bytes": null,
+          "latency_milliseconds": 0,
+          "compactions": 0,
+          "invocation_count": 0,
+          "outcome": "manager-review"
+        }
+      },
+      {
+        "id": "factory-c30ea6bef562601f1d92a456aa4aede3:canonicalized",
+        "event": "canonicalized",
+        "from": "MANAGER_REVIEW",
+        "to": "CANONICALIZED",
+        "legal": true,
+        "sequence": 9,
+        "route": "NO_MODEL",
+        "accounting": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "uncached_input_tokens": 0,
+          "output_tokens": 0,
+          "tool_output_bytes": 0,
+          "context_bytes": null,
+          "latency_milliseconds": 0,
+          "compactions": 0,
+          "invocation_count": 0,
+          "outcome": "canonicalization recorded"
+        }
+      },
+      {
+        "id": "factory-c30ea6bef562601f1d92a456aa4aede3:canonical-published",
+        "event": "canonical-published",
+        "from": "CANONICALIZED",
+        "to": "PUBLISHED",
+        "legal": true,
+        "sequence": 10,
+        "route": "NO_MODEL",
+        "accounting": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "uncached_input_tokens": 0,
+          "output_tokens": 0,
+          "tool_output_bytes": 0,
+          "context_bytes": null,
+          "latency_milliseconds": 0,
+          "compactions": 0,
+          "invocation_count": 0,
+          "outcome": "canonical publication recorded"
+        }
+      },
+      {
+        "id": "factory-c30ea6bef562601f1d92a456aa4aede3:accepted",
+        "event": "accepted",
+        "from": "PUBLISHED",
+        "to": "ACCEPTED",
+        "legal": true,
+        "sequence": 11,
+        "route": "NO_MODEL",
+        "accounting": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "uncached_input_tokens": 0,
+          "output_tokens": 0,
+          "tool_output_bytes": 0,
+          "context_bytes": null,
+          "latency_milliseconds": 0,
+          "compactions": 0,
+          "invocation_count": 0,
+          "outcome": "acceptance recorded"
+        }
+      }
+    ],
+    "replay": {
+      "factory-c30ea6bef562601f1d92a456aa4aede3:accepted": "efd178fb00c185323b7364b1e16b1d1b2765160ce6f8b494b41e0340cfb8e3d8",
+      "factory-c30ea6bef562601f1d92a456aa4aede3:artifact-returned": "c55994d197e37d99cafd14c1da2cf4749acda21adeac8e31b55f1ba85e2a441b",
+      "factory-c30ea6bef562601f1d92a456aa4aede3:broker-committed": "3b33111dbe9077a0289fe95e9cae1a3609b211b746192bf07c19f6b45c40590e",
+      "factory-c30ea6bef562601f1d92a456aa4aede3:canonical-published": "e750fa1f74e15a62a8cccf6451037fc9288daee93a4bf7ea8fd5c3231e1f8fb3",
+      "factory-c30ea6bef562601f1d92a456aa4aede3:canonicalized": "8c1027cedf40b788fac08ec04e7c1ec5d59e416c2034da1ed79a87cc4342fa2b",
+      "factory-c30ea6bef562601f1d92a456aa4aede3:manager-review:LLM-ksk.1": "852ec42a78bf1f86bfdb5159cddc71a4a1c511ef0bfb8d28186035ceff1488c9",
+      "factory-c30ea6bef562601f1d92a456aa4aede3:ready": "3adb6e427f9be9e17db5276993616744ecbce1a82df18c418286f176e6475665",
+      "factory-c30ea6bef562601f1d92a456aa4aede3:registered": "4c7af4a86cd473cbe22346f51fd5b4b7b5174876132334cfe9744094c9ecd6e5",
+      "factory-c30ea6bef562601f1d92a456aa4aede3:worker-complete:LLM-ksk.1": "639807e4fc273c2001a98fde84da6e02b6473519dbeb89357e5bbb1656b1f4bd",
+      "factory-c30ea6bef562601f1d92a456aa4aede3:worker-launch-pending:LLM-ksk.1": "e5adc9f0a9d2b62b5d0993f590f1e3253f2f3ba325ce9a0026549c2d7ac186a1",
+      "factory-c30ea6bef562601f1d92a456aa4aede3:worker-started:LLM-ksk.1": "603d0c79fa27368290c9882e2c73c2fa83dd47928e8f2e4eb5817a3cb0c76cc6"
+    }
+  },
+  "publication_intent": {
+    "schema_version": 1,
+    "kind": "publication",
+    "transaction_id": "factory-c30ea6bef562601f1d92a456aa4aede3",
+    "bead_id": "LLM-ksk.1",
+    "evidence_sha256": "d0bedf6af34f8ff192037d5bd1549d5c8686b3b6e4e77b585e14ff7181e1a03c",
+    "status": "COMMITTED"
+  },
+  "qa_intent": {
+    "schema_version": 1,
+    "kind": "qa",
+    "transaction_id": "factory-c30ea6bef562601f1d92a456aa4aede3",
+    "bead_id": "LLM-ksk.1",
+    "evidence_sha256": "f4859537ecf82dcbe39dca0c517690e3c08d5f5058fb1af9a9a50aa6e0129826",
+    "status": "PENDING"
+  },
+  "closure_intent": {
+    "schema_version": 1,
+    "kind": "closure",
+    "transaction_id": "factory-c30ea6bef562601f1d92a456aa4aede3",
+    "bead_id": "LLM-ksk.1",
+    "evidence_sha256": "f4859537ecf82dcbe39dca0c517690e3c08d5f5058fb1af9a9a50aa6e0129826",
+    "status": "COMMITTED"
+  },
+  "dispatch_receipt": {
+    "binding": {
+      "attempt_id": "factory-c30ea6bef562601f1d92a456aa4aede3",
+      "release_id": "starchart-dc86a38d0ce7",
+      "task_input_identity": "2f1f63d75f05ad1b4f10fbf7b06e1ac37c78cc3f",
+      "protocol_version": "1.0.0",
+      "route": "SOL",
+      "evidence_namespace": "factory-c30ea6bef562601f1d92a456aa4aede3"
+    },
+    "dispatch_id": "factory-c30ea6bef562601f1d92a456aa4aede3:worker-launch-pending:LLM-ksk.1",
+    "accepted_at": "2026-10-03T11:35:15.644208426Z",
+    "digest": "d8256a9cf473b297e177e1c7fd8840a8d10eeb444b15f7525655168d1885dd15"
+  },
+  "invocation_consumed_dispatch_id": "factory-c30ea6bef562601f1d92a456aa4aede3:worker-launch-pending:LLM-ksk.1",
+  "worker_session_receipt": {
+    "binding": {
+      "attempt_id": "factory-c30ea6bef562601f1d92a456aa4aede3",
+      "release_id": "starchart-dc86a38d0ce7",
+      "task_input_identity": "2f1f63d75f05ad1b4f10fbf7b06e1ac37c78cc3f",
+      "protocol_version": "1.0.0",
+      "route": "SOL",
+      "evidence_namespace": "factory-c30ea6bef562601f1d92a456aa4aede3"
+    },
+    "session_id": "01a1018e-4d97-7120-8b6d-f72a3d8b1399",
+    "invocation_id": "factory-c30ea6bef562601f1d92a456aa4aede3:worker-launch-pending:LLM-ksk.1",
+    "session_state": "durable",
+    "digest": "7fe53174340e55d06ac36e68aae750f3f0f4324e9246ba2199551eb0c2e39e1d"
+  },
+  "result_receipt": {
+    "binding": {
+      "attempt_id": "factory-c30ea6bef562601f1d92a456aa4aede3",
+      "release_id": "starchart-dc86a38d0ce7",
+      "task_input_identity": "2f1f63d75f05ad1b4f10fbf7b06e1ac37c78cc3f",
+      "protocol_version": "1.0.0",
+      "route": "SOL",
+      "evidence_namespace": "factory-c30ea6bef562601f1d92a456aa4aede3"
+    },
+    "session_id": "01a1018e-4d97-7120-8b6d-f72a3d8b1399",
+    "invocation_id": "factory-c30ea6bef562601f1d92a456aa4aede3:worker-launch-pending:LLM-ksk.1",
+    "result_sha256": "7ab728dce166546d98d776e99d0471eb2f96a87f218fa6b90b39268583af9a41",
+    "digest": "cd3c3bdf386282fe2388ae7514d270d7bb78ec6ffc0a547c7c948b9265e7ee5c"
+  },
+  "namespace_proof": {
+    "attempt_namespace": "factory-c30ea6bef562601f1d92a456aa4aede3",
+    "evidence_namespace": "factory-c30ea6bef562601f1d92a456aa4aede3"
+  }
+}

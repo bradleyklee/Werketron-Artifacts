@@ -1,0 +1,7 @@
+{
+  "transaction_id": "factory-c30ea6bef562601f1d92a456aa4aede3",
+  "bead_id": "LLM-ksk.1",
+  "worker_model": "gpt-6-luna",
+  "accounting": null,
+  "availability": "No STARCHART transaction accounting record was supplied in the worker workspace."
+}

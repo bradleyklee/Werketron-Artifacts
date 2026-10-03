@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "transaction_id": "factory-c30ea6bef562601f1d92a456aa4aede3",
+  "bead_id": "LLM-ksk.1",
+  "reviewer": "aloeus/manager",
+  "artifact_manifest_sha256": "d0bedf6af34f8ff192037d5bd1549d5c8686b3b6e4e77b585e14ff7181e1a03c",
+  "decision": "ACCEPT",
+  "reason": "The exact Luna candidate and frozen inputs match the supplied manifests; the recorded focused tests and deterministic verifier checks pass, the artifact inventory and limitations are durable, and measured transaction accounting is preserved without invented costs.",
+  "oracle_results": [
+    {
+      "oracle": "Candidate, manifest, and frozen-input identity",
+      "passed": true,
+      "evidence": "Literal candidate directory exists; HEAD b4f98df8236edcd9f52a98fcf724cb34fad69cd8 matches the packet and manifest; artifact manifest SHA-256 matches; all 13 listed candidate file digests match; frozen SPEC SHA-256 835f3957b162138ba88ccb1d8376de785958dd220c9941af15ad985fa23c3e6b and copied SPEC bytes match; copied Bead acceptance fields match the packet."
+    },
+    {
+      "oracle": "Luna implementation and transaction isolation",
+      "passed": true,
+      "evidence": "Manifest lists only the transaction-scoped luna-candidate product; worker result and process notes identify gpt-6-luna and report no Sol-candidate access or STARCHART rebuild. Transaction state binds LLM-ksk.1 to accepted release starchart-dc86a38d0ce7; active release pointer and recorded manifest digest match."
+    },
+    {
+      "oracle": "Durable program, tests, verifier output, inventory, and limitations",
+      "passed": true,
+      "evidence": "Manifest-listed program, test module, README, PROCESS.md, tests.txt, verifier.txt, sample Braille and ASCII outputs, accounting.json, and inventory.json are present with matching digests. All 12 inventory entries match file SHA-256 and byte counts. README and worker result state geometry, canvas-growth, and accounting limitations."
+    },
+    {
+      "oracle": "Deterministic frozen-SPEC checks",
+      "passed": true,
+      "evidence": "Worker trace binds the final source to a passing five-test run; recorded verifier.txt reports N=2 through N=16 passing and trace records N=20 --verifica passing. Source verifier covers Fibonacci sides and rectangle, disjoint squares, arc radii and containment, shared endpoints and tangents, raster connectivity, shared global transform, and N+1 geometric prefix. Recorded N=6 Braille output has uniform width, Braille-only characters, and occupied outer rows; ASCII grid output is present."
+    },
+    {
+      "oracle": "Exact accounting without invented monetary figures",
+      "passed": true,
+      "evidence": "Packet-hashed metrics.json and state.json agree on 2,170,996 input tokens, 2,072,320 cached input tokens, 98,676 uncached input tokens, 25,888 output tokens, 557,434 ms latency, and one invocation. State records budget-exceeded, which does not void completed QA. Candidate accounting.json explicitly records worker-side accounting unavailable as null; no monetary cost is estimated."
+    }
+  ],
+  "provenance": {
+    "review_packet": "/work/repo/sandbox/control-plane/qa-runtime/factory-c30ea6bef562601f1d92a456aa4aede3-attempt-1/review-packet.json",
+    "candidate_commit": "b4f98df8236edcd9f52a98fcf724cb34fad69cd8",
+    "artifact_manifest_sha256": "d0bedf6af34f8ff192037d5bd1549d5c8686b3b6e4e77b585e14ff7181e1a03c",
+    "worker_trace_sha256": "aad1d17fe377cee3bf11c72bb78a1cf74fb58f1a50cc17c5dea592307fec8455",
+    "worker_metrics_sha256": "f511c89a760f64f5ed08d6ee5f4539f5dd85b80f042942f8dcfb42a48f2b4d23",
+    "transaction_state_sha256": "4ff23f9560fc59aaa5402114f7e84b250a07a68e3667f6798c3d9f0382f973ab",
+    "accepted_release_manifest_sha256": "1a6a8855b36ecc5c1fac14af0972103acf3a139ea66df1e1965c23b46deefa5c"
+  }
+}

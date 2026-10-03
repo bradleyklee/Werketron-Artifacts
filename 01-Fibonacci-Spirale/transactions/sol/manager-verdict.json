@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "transaction_id": "factory-8a2929aec03d3072fa2ec88957bd58e5",
+  "bead_id": "LLM-ksk.2",
+  "reviewer": "aloeus/manager",
+  "artifact_manifest_sha256": "3d076a0c33dd5a01955cca3297806cd6690333f66bbdbb4c20f3eae20225498c",
+  "decision": "ACCEPT",
+  "reason": "The isolated Sol candidate matches the exact manifest and frozen inputs; durable product, verifier, output, inventory, and limitations are present. Recorded focused checks pass, and measured transaction accounting is preserved without invented monetary costs. The input-token budget excess is recorded and does not bar QA acceptance.",
+  "oracle_results": [
+    {
+      "oracle": "Candidate and manifest identity",
+      "passed": true,
+      "evidence": "Candidate directory exists; HEAD a807737b428aa68451c27a4efc1b98580396e655 matches packet and manifest. Artifact manifest SHA-256 and all eight listed candidate file digests match; worker exact-file manifest lists the same eight paths."
+    },
+    {
+      "oracle": "Durable program, tests, verifier output, inventory, and limitations",
+      "passed": true,
+      "evidence": "Manifest-listed spirale_fibonacci.py, verificatore.py, verifica.log, inventory.json, README.md, frozen SPEC.md and PLAN.json, and bead.txt are present and hash-matched. Inventory covers the other seven files exactly; README states Unicode and fixed-resolution growth limits. Worker result and trace digests match packet."
+    },
+    {
+      "oracle": "Deterministic frozen-SPEC checks",
+      "passed": true,
+      "evidence": "Frozen SPEC and PLAN copies equal the directly referenced inputs with SHA-256 835f3957b162138ba88ccb1d8376de785958dd220c9941af15ad985fa23c3e6b and e8a44c24797b0e80ae81a34b6325c1c222a14f85b175f7a66ec2c6f788aee59a. Recorded verifier exit 0 after final program change covers N=2..11: Fibonacci tiling, arcs and tangents, raster/Braille canvas, interface, and geometric prefix. Recorded --verifica N=13 exit 0; hash-matched verifica.log contains all results."
+    },
+    {
+      "oracle": "Sol isolation and accepted release",
+      "passed": true,
+      "evidence": "Manifest and product output paths are transaction-specific Sol paths; worker trace has no Luna-candidate command or file change. Transaction state binds SOL and gpt-6-sol to LLM-ksk.2 and accepted release starchart-dc86a38d0ce7. Active release pointer matches the packet target; accepted release manifest digest matches. Build mode is none."
+    },
+    {
+      "oracle": "Preserved accounting without invented costs",
+      "passed": true,
+      "evidence": "Hash-matched metrics bind this transaction and Bead to one completed worker invocation and equal the worker-complete state edge: 2,017,077 input (1,942,528 cached; 74,549 uncached), 23,507 output tokens, 642,226 ms. State records budget_exceeded=true. Worker inventory leaves unavailable worker-side accounting null; README reports no estimated monetary cost."
+    }
+  ],
+  "provenance": {
+    "review_packet": "review-packet.json",
+    "candidate_commit": "a807737b428aa68451c27a4efc1b98580396e655",
+    "artifact_manifest_sha256": "3d076a0c33dd5a01955cca3297806cd6690333f66bbdbb4c20f3eae20225498c",
+    "worker_result_sha256": "1774f55356e716711b1964971c924064951e1f60c5cb9687ff194076d2a7e168",
+    "worker_trace_sha256": "994ac762390ed21c92d3ea246cd91f588f9819b6d06a5a04db9abceff7f6ff99",
+    "worker_metrics_sha256": "5c8373f465e490de5e8f68dcf74031adf817652201718f150c35bc82c854e7de",
+    "transaction_state_sha256": "0af6cdbe0e3dacac87aa40bc120457d1318e86626ddcdde3b4b6a1e576afebb2",
+    "accepted_release_manifest_sha256": "1a6a8855b36ecc5c1fac14af0972103acf3a139ea66df1e1965c23b46deefa5c"
+  }
+}

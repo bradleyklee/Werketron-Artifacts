@@ -1,0 +1,10 @@
+test_aiuto_in_italiano (test_spirale_fibonacci.TestSpiraleFibonacci.test_aiuto_in_italiano) ... ok
+test_interfaccia_verifica (test_spirale_fibonacci.TestSpiraleFibonacci.test_interfaccia_verifica) ... ok
+test_rifiuta_n_invalido (test_spirale_fibonacci.TestSpiraleFibonacci.test_rifiuta_n_invalido) ... ok
+test_tela_braille_e_griglia_ascii (test_spirale_fibonacci.TestSpiraleFibonacci.test_tela_braille_e_griglia_ascii) ... ok
+test_verifica_per_valori_crescenti (test_spirale_fibonacci.TestSpiraleFibonacci.test_verifica_per_valori_crescenti) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.888s
+
+OK
