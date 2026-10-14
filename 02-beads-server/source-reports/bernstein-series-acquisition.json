@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "source": "https://blog.cr.yp.to/index.html",
+  "scope": "NSA and IETF series only",
+  "index_series": [
+    {
+      "url": "https://blog.cr.yp.to/20260814-update.html",
+      "label": "2026.08.14: NSA and IETF, part 9:"
+    },
+    {
+      "url": "https://blog.cr.yp.to/20260706-fairness.html",
+      "label": "2026.07.06: NSA and IETF, part 8:"
+    },
+    {
+      "url": "https://blog.cr.yp.to/20260405-votes.html",
+      "label": "2026.04.05: NSA and IETF, part 7:"
+    },
+    {
+      "url": "https://blog.cr.yp.to/20260221-structure.html",
+      "label": "2026.02.21: NSA and IETF, part 6:"
+    },
+    {
+      "url": "https://blog.cr.yp.to/20260219-obaa.html",
+      "label": "2026.02.19: NSA and IETF, part 5:"
+    },
+    {
+      "url": "https://blog.cr.yp.to/20251123-scope.html",
+      "label": "2025.11.23: NSA and IETF, part 4:"
+    },
+    {
+      "url": "https://blog.cr.yp.to/20251123-dodging.html",
+      "label": "2025.11.23: NSA and IETF, part 3:"
+    },
+    {
+      "url": "https://blog.cr.yp.to/20251123-corruption.html",
+      "label": "2025.11.23: NSA and IETF, part 2:"
+    },
+    {
+      "url": "https://blog.cr.yp.to/20251004-weakened.html",
+      "label": "2025.10.04: NSA and IETF:"
+    }
+  ],
+  "records": [
+    {
+      "url": "https://blog.cr.yp.to/index.html",
+      "checked_at": "2026-10-12T23:08:57.176709+00:00",
+      "status": 200,
+      "final_url": "https://blog.cr.yp.to/index.html",
+      "bytes": 12573,
+      "sha256": "ff1906342d8ff329fa965d28f41d9fa65bca13b283ee637999caf09a740fbf48",
+      "snapshot": "index.html",
+      "title": "cr.yp.to: \nblog",
+      "text_sha256": "f33b54782ae9ae21ee36d2e0a90dc7fa2e01bdcbf58d746ef081da425166c34d",
+      "text_words": 1012
+    },
+    {
+      "url": "https://blog.cr.yp.to/20251004-weakened.html",
+      "checked_at": "2026-10-12T23:08:57.178775+00:00",
+      "status": 200,
+      "final_url": "https://blog.cr.yp.to/20251004-weakened.html",
+      "bytes": 56984,
+      "sha256": "6a593e2ee0e45b3595f3a81e86b90725a005573e0d3d5e19b546d8605b0ca1fb",
+      "snapshot": "20251004-weakened.html",
+      "title": "cr.yp.to: \n2025.10.04: NSA and IETF",
+      "text_sha256": "ad675ba35456885c0b58fb0076eb0d15d583390b262550cbd2bb96104ea911ec",
+      "text_words": 5071,
+      "article_heading": "2025.10.04: NSA and IETF: Can an attacker simply purchase standardization of weakened cryptography? #pqcrypto #hybrids #nsa #ietf #antitrust"
+    },
+    {
+      "url": "https://blog.cr.yp.to/20251123-corruption.html",
+      "checked_at": "2026-10-12T23:08:57.180096+00:00",
+      "status": 200,
+      "final_url": "https://blog.cr.yp.to/20251123-corruption.html",
+      "bytes": 34907,
+      "sha256": "7ac8936d4c307c371f9dd89f8719a0b2eaece9756d9fc954f1f889f93a1f5c18",
+      "snapshot": "20251123-corruption.html",
+      "title": "cr.yp.to: \n2025.11.23: NSA and IETF, part 2",
+      "text_sha256": "e710e5fd890772bf79b53c643d8361104e8c758e69957860d28cb2e4e2d6d097",
+      "text_words": 2280,
+      "article_heading": "2025.11.23: NSA and IETF, part 2: Corruption continues. #pqcrypto #hybrids #nsa #ietf #corruption"
+    },
+    {
+      "url": "https://blog.cr.yp.to/20251123-dodging.html",
+      "checked_at": "2026-10-12T23:08:57.678415+00:00",
+      "status": 200,
+      "final_url": "https://blog.cr.yp.to/20251123-dodging.html",
+      "bytes": 58202,
+      "sha256": "431fa81884e01344bf3eaa57aa057b7f6ea4f96214fb27ba319256002f966f68",
+      "snapshot": "20251123-dodging.html",
+      "title": "cr.yp.to: \n2025.11.23: NSA and IETF, part 3",
+      "text_sha256": "fd40814d420a1700c19aa8002f2b95e5a8465244c7d2463c37bb89b6f89a724a",
+      "text_words": 5613,
+      "article_heading": "2025.11.23: NSA and IETF, part 3: Dodging the issues at hand. #pqcrypto #hybrids #nsa #ietf #dodging"
+    },
+    {
+      "url": "https://blog.cr.yp.to/20251123-scope.html",
+      "checked_at": "2026-10-12T23:08:57.706143+00:00",
+      "status": 200,
+      "final_url": "https://blog.cr.yp.to/20251123-scope.html",
+      "bytes": 27060,
+      "sha256": "fa7f7784f16e4bb7389800861003d7ad6fb6b8bf62c1b36d2ddd43e48b5e814c",
+      "snapshot": "20251123-scope.html",
+      "title": "cr.yp.to: \n2025.11.23: NSA and IETF, part 4",
+      "text_sha256": "f4728179f39640adb79b67f451ac6765572cfe60995167bca04722282b6cd06a",
+      "text_words": 1854,
+      "article_heading": "2025.11.23: NSA and IETF, part 4: An example of censored dissent. #pqcrypto #hybrids #nsa #ietf #scope"
+    },
+    {
+      "url": "https://blog.cr.yp.to/20260219-obaa.html",
+      "checked_at": "2026-10-12T23:08:57.720686+00:00",
+      "status": 200,
+      "final_url": "https://blog.cr.yp.to/20260219-obaa.html",
+      "bytes": 53150,
+      "sha256": "5cdd2496cbceb9e010198ec12506a7069d470200e312d7446b05d6daa71b5b85",
+      "snapshot": "20260219-obaa.html",
+      "title": "cr.yp.to: \n2026.02.19: NSA and IETF, part 5",
+      "text_sha256": "1c3ab6dbb1d70d1dc30c8b16a285a0b8760ca507395c3b0d264f0c4c04a09eb8",
+      "text_words": 4620,
+      "article_heading": "2026.02.19: NSA and IETF, part 5: One battle after another. #pqcrypto #hybrids #nsa #ietf #lastcall"
+    },
+    {
+      "url": "https://blog.cr.yp.to/20260221-structure.html",
+      "checked_at": "2026-10-12T23:08:57.909956+00:00",
+      "status": 200,
+      "final_url": "https://blog.cr.yp.to/20260221-structure.html",
+      "bytes": 83337,
+      "sha256": "5162bf34f66a746ed276e21379f975995407900527b433dafa8a60bc5bc8a7c3",
+      "snapshot": "20260221-structure.html",
+      "title": "cr.yp.to: \n2026.02.21: NSA and IETF, part 6",
+      "text_sha256": "64f6b912c026b04b3402d22dd02e46b5f7a5710c887c8723049b6f6d540e09c6",
+      "text_words": 3931,
+      "article_heading": "2026.02.21: NSA and IETF, part 6: The structure of the debate. #pqcrypto #hybrids #nsa #ietf #chart"
+    },
+    {
+      "url": "https://blog.cr.yp.to/20260405-votes.html",
+      "checked_at": "2026-10-12T23:08:57.915498+00:00",
+      "status": 200,
+      "final_url": "https://blog.cr.yp.to/20260405-votes.html",
+      "bytes": 58101,
+      "sha256": "307d94e465211ef4bc9c0b0d23ebcb620633b693100cb940b6f48811c32b6092",
+      "snapshot": "20260405-votes.html",
+      "title": "cr.yp.to: \n2026.04.05: NSA and IETF, part 7",
+      "text_sha256": "5508981e03579513007a40feb8ee1b72840fb6ff57546117169d179576281774",
+      "text_words": 4645,
+      "article_heading": "2026.04.05: NSA and IETF, part 7: Counting votes. #pqcrypto #hybrids #nsa #ietf #voting"
+    },
+    {
+      "url": "https://blog.cr.yp.to/20260706-fairness.html",
+      "checked_at": "2026-10-12T23:08:57.963929+00:00",
+      "status": 200,
+      "final_url": "https://blog.cr.yp.to/20260706-fairness.html",
+      "bytes": 35392,
+      "sha256": "929b8a716dc07d9d625e08b32c350a14d87c5771e0f706a4bdf7da03d232e38a",
+      "snapshot": "20260706-fairness.html",
+      "title": "cr.yp.to: \n2026.07.06: NSA and IETF, part 8",
+      "text_sha256": "788183b1f3fc5446ab621e657ed546c94d7f8c742a02714d543b8a7da1b4ec1f",
+      "text_words": 2266,
+      "article_heading": "2026.07.06: NSA and IETF, part 8: Fairness. #pqcrypto #hybrids #nsa #ietf #riskmanagement"
+    },
+    {
+      "url": "https://blog.cr.yp.to/20260814-update.html",
+      "checked_at": "2026-10-12T23:08:58.171394+00:00",
+      "status": 200,
+      "final_url": "https://blog.cr.yp.to/20260814-update.html",
+      "bytes": 34645,
+      "sha256": "39e53cfb5ed1c451f207c135eec4f246023fdce6e3d06637f55980773a5e7e8c",
+      "snapshot": "20260814-update.html",
+      "title": "cr.yp.to: \n2026.08.14: NSA and IETF, part 9",
+      "text_sha256": "6ebfc6291ce9d72d54df6b99fa98ad1356e04cc27f3696516ed5d03ee0cd2f52",
+      "text_words": 2257,
+      "article_heading": "2026.08.14: NSA and IETF, part 9: An update. #pqcrypto #hybrids #nsa #ietf #procedures"
+    }
+  ],
+  "limits": "Original snapshots retained separately from generated report; selective technical/governance reading, no independent verification of every linked mailing-list message."
+}

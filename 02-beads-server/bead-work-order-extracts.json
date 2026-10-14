@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "LLM-0kc",
+      "title": "Frame and test the Git–Dolt–Beads–BDP analogy",
+      "status": "closed",
+      "issue_type": "task",
+      "description": "Frame and test the system-layer analogy among Git, Dolt, Beads, and BDP using primary-source evidence.",
+      "dependencies": []
+    },
+    {
+      "id": "LLM-aqy",
+      "title": "Inventory and study the pinned Beads source tree",
+      "status": "closed",
+      "issue_type": "task",
+      "description": "Inventory and analyze the pinned Beads source tree, documenting mechanisms and evidence.",
+      "dependencies": [
+        {
+          "dependency_type": "blocks",
+          "id": "LLM-0kc",
+          "status": "closed",
+          "title": "Frame and test the Git–Dolt–Beads–BDP analogy"
+        }
+      ]
+    },
+    {
+      "id": "LLM-418",
+      "title": "Inventory and study the pinned BDP source tree",
+      "status": "closed",
+      "issue_type": "task",
+      "description": "Inventory and analyze the pinned BDP source tree; distinguish proposal, implementation, and evidence.",
+      "dependencies": [
+        {
+          "dependency_type": "blocks",
+          "id": "LLM-0kc",
+          "status": "closed",
+          "title": "Frame and test the Git–Dolt–Beads–BDP analogy"
+        }
+      ]
+    },
+    {
+      "id": "LLM-xbz",
+      "title": "Write the Beads on the Server research chapter",
+      "status": "closed",
+      "issue_type": "task",
+      "description": "Write a source-grounded chapter comparing Git, Dolt, Beads, BDP, and protocol layers.",
+      "dependencies": [
+        {
+          "dependency_type": "blocks",
+          "id": "LLM-aqy",
+          "status": "closed",
+          "title": "Inventory and study the pinned Beads source tree"
+        },
+        {
+          "dependency_type": "blocks",
+          "id": "LLM-418",
+          "status": "closed",
+          "title": "Inventory and study the pinned BDP source tree"
+        }
+      ]
+    },
+    {
+      "id": "LLM-8d4",
+      "title": "Integrate and review the future TLS warning in Beads on the Server",
+      "status": "closed",
+      "issue_type": "task",
+      "description": "Integrate reviewed TLS and security research where it informs protocol analysis.",
+      "dependencies": [
+        {
+          "dependency_type": "blocks",
+          "id": "LLM-xbz",
+          "status": "closed",
+          "title": "Write the Beads on the Server research chapter"
+        }
+      ]
+    },
+    {
+      "id": "LLM-bk9",
+      "title": "Export reviewed protocol findings into Beads",
+      "status": "closed",
+      "issue_type": "task",
+      "description": "Represent accepted research findings in existing Beads without duplicating memory.",
+      "dependencies": [
+        {
+          "dependency_type": "blocks",
+          "id": "LLM-xbz",
+          "status": "closed",
+          "title": "Write the Beads on the Server research chapter"
+        },
+        {
+          "dependency_type": "blocks",
+          "id": "LLM-8d4",
+          "status": "closed",
+          "title": "Integrate and review the future TLS warning in Beads on the Server"
+        }
+      ]
+    },
+    {
+      "id": "LLM-qlq",
+      "title": "Run bounded Beads knowledge operations and record their effects",
+      "status": "closed",
+      "issue_type": "task",
+      "description": "Run available knowledge operations and record actual outcomes and limitations.",
+      "dependencies": [
+        {
+          "dependency_type": "blocks",
+          "id": "LLM-bk9",
+          "status": "closed",
+          "title": "Export reviewed protocol findings into Beads"
+        }
+      ]
+    },
+    {
+      "id": "LLM-a4p",
+      "title": "Revise Beads on the Server: native HTTP comparison and referee corrections",
+      "status": "closed",
+      "issue_type": "task",
+      "description": "Revise the chapter for Beads’ native HTTP backend and apply referee corrections.",
+      "dependencies": [
+        {
+          "dependency_type": "blocks",
+          "id": "LLM-qlq",
+          "status": "closed",
+          "title": "Run bounded Beads knowledge operations and record their effects"
+        }
+      ]
+    },
+    {
+      "id": "LLM-crc",
+      "title": "Assemble and verify the Beads on the Server review artifact set",
+      "status": "in_progress",
+      "issue_type": "task",
+      "description": "Assemble and verify the final review package while preserving prior attempt evidence.",
+      "dependencies": [
+        {
+          "dependency_type": "blocks",
+          "id": "LLM-qlq",
+          "status": "closed",
+          "title": "Run bounded Beads knowledge operations and record their effects"
+        },
+        {
+          "dependency_type": "blocks",
+          "id": "LLM-mcw",
+          "status": "closed",
+          "title": "Complete sanitized Beads on the Server export and archive"
+        },
+        {
+          "dependency_type": "blocks",
+          "id": "LLM-a4p",
+          "status": "closed",
+          "title": "Revise Beads on the Server: native HTTP comparison and referee corrections"
+        }
+      ]
+    },
+    {
+      "id": "LLM-mcw",
+      "title": "Complete sanitized Beads on the Server export and archive",
+      "status": "closed",
+      "issue_type": "task",
+      "description": "Complete and verify the sanitized export, archive, and review evidence.",
+      "dependencies": [
+        {
+          "dependency_type": "blocks",
+          "id": "LLM-a4p",
+          "status": "closed",
+          "title": "Revise Beads on the Server: native HTTP comparison and referee corrections"
+        }
+      ]
+    }
+  ],
+  "scope_note": "Concise summaries of relevant research work items and their minimal dependency relationships. Full work orders, internal memory keys, workspace paths, raw process details, and runtime metadata are excluded."
+}

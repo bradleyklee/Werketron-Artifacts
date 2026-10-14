@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/gastownhall/bdp",
+  "commit": "caf5ca75a4e9b9c7865e61e97f849ab736c21e64",
+  "commit_date": "2026-10-11T23:54:22-07:00",
+  "working_tree": "",
+  "tracked_path_count": 552,
+  "inventory_path": "bdp-tracked-paths.txt",
+  "inventory_sha256": "11965f2da0cbd92d8ea8a77f6ee541e5c3bf317623e1ce9f6b23364d09fbcdeb",
+  "acquisition": "isolated manager-side clone; worker egress was unavailable"
+}

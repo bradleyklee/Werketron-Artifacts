@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-14",
+  "scope": "Curated public review package and deterministic archive",
+  "checks": [
+    "absolute local paths",
+    "email addresses",
+    "session/thread UUIDs",
+    "usage-limit URLs",
+    "factory transaction identifiers",
+    "private hostnames",
+    "private-key markers",
+    "common cloud-key forms"
+  ],
+  "actions": [
+    "removed internal planning and work-order material",
+    "reduced Bead records to concise research summaries",
+    "removed operational memory keys, workspace paths, inventory snapshots, and detailed receipts",
+    "preserved source-grounded research and the verbatim referee report"
+  ],
+  "limitations": "Pattern checks cannot establish that arbitrary prose contains no sensitive facts."
+}

@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/gastownhall/beads",
+  "commit": "b630f96f5bd231ff7aea78af0d47b6038f228d00",
+  "commit_date": "2026-10-12T09:02:22Z",
+  "working_tree": "",
+  "tracked_path_count": 4791,
+  "inventory_path": "beads-tracked-paths.txt",
+  "inventory_sha256": "e6ca45b5b28c39da59c56d4459fe5108c0f0961ddefaa9e62b918453d152af5a",
+  "acquisition": "isolated manager-side clone; worker source study had blocked before inspection"
+}

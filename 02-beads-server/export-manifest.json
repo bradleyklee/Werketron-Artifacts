@@ -1,0 +1,125 @@
+{
+  "acceptance": "redacted_colleague_review_candidate",
+  "files": [
+    {
+      "path": "Beads-on-the-Server.md",
+      "sha256": "58cb81d88bfdaed4f9ed50f344cfde792255221649fcd0475395a17f14605b6d",
+      "size": 38517
+    },
+    {
+      "path": "FromClaude/referee-report-beads-on-the-server-2026-10-13.md",
+      "sha256": "1555c913584238b64ee380de5a6bd75f8ecc84466fa160982ddf17338e176b8c",
+      "size": 19729
+    },
+    {
+      "path": "README.md",
+      "sha256": "680a455c2632cada71b41648a26227b391cdec809a3d323a93cdd5936847e2d2",
+      "size": 1068
+    },
+    {
+      "path": "bead-work-order-extracts.json",
+      "sha256": "2a117d7a3bebdbd9b2fb18f2515a807962975aeced1f5a4bb31a9a8d5c40b3a6",
+      "size": 5868
+    },
+    {
+      "path": "chapter-verification.md",
+      "sha256": "2e107751c9206e8a8df311be25dd6160a0a55d2c0ac727489e88e440053f1818",
+      "size": 938
+    },
+    {
+      "path": "export-process-ephemera.md",
+      "sha256": "1ee2731da7453f0e16b56992281604c7148ff3639f9790de2f5fcc994b02da15",
+      "size": 687
+    },
+    {
+      "path": "knowledge-creation-summary.md",
+      "sha256": "0db5af2246f2b0db1a5d0329591385c900829a82d5b41b07353b07eb3cc69d2b",
+      "size": 874
+    },
+    {
+      "path": "pr-readiness.md",
+      "sha256": "74ed4f2115fb2f143144b29aeb22484addb13078de2c1b993b69db91b8c29df8",
+      "size": 415
+    },
+    {
+      "path": "provenance-and-noise-research.md",
+      "sha256": "28e95e035f04a19dc3b6a32ebb1c257e3ae3706bcedbfc9d88a49afeca061b73",
+      "size": 13993
+    },
+    {
+      "path": "referee-response-beads-on-the-server-2026-10-13.md",
+      "sha256": "ee4c04bc35cdd18304501f042993b38fa59b4a45c16bbbaa1d64cd3ed5597d21",
+      "size": 4396
+    },
+    {
+      "path": "sensitivity-review-2026-10-14.json",
+      "sha256": "d7b8260e47bb78c78b49ddb7925340f027bace5babeb46131aa917b88bf7ed29",
+      "size": 779
+    },
+    {
+      "path": "source-link-coverage.md",
+      "sha256": "b728449e03ec75f08a71f162b92fb7bee85b9ab25a0a4680ca893b78b70ab2d0",
+      "size": 26505
+    },
+    {
+      "path": "source-reports/bdp-source-checkout.json",
+      "sha256": "daabbbdf8320dba5f6165a24de2812f5ae09fc05eb85ad98f9003104b6f5ef03",
+      "size": 424
+    },
+    {
+      "path": "source-reports/bdp-source-study.md",
+      "sha256": "d915c5a10ea03214f7d7aa4ce916dedfc64cbec15caf1c068e9b3f563fd0dc3b",
+      "size": 17241
+    },
+    {
+      "path": "source-reports/bdp-tracked-paths.txt",
+      "sha256": "11965f2da0cbd92d8ea8a77f6ee541e5c3bf317623e1ce9f6b23364d09fbcdeb",
+      "size": 31521
+    },
+    {
+      "path": "source-reports/beads-source-checkout.json",
+      "sha256": "a3780f45786ba92a3918f73cb3436d0090a1a00948a63497a7d4d9e1d8abee83",
+      "size": 444
+    },
+    {
+      "path": "source-reports/beads-source-study.md",
+      "sha256": "c537b09521da368acb508fe7334c347cf17b97fbb28e6120d202565925b8e1b6",
+      "size": 14521
+    },
+    {
+      "path": "source-reports/beads-tracked-paths.txt",
+      "sha256": "e6ca45b5b28c39da59c56d4459fe5108c0f0961ddefaa9e62b918453d152af5a",
+      "size": 183747
+    },
+    {
+      "path": "source-reports/bernstein-series-acquisition.json",
+      "sha256": "7357075b45210510676f463df065064a1e165ce248cb061ef8c5b8f51eba52e4",
+      "size": 7954
+    },
+    {
+      "path": "source-reports/upstream-pr-snapshot-20261012.json",
+      "sha256": "2e5e80f89d94bd54772cb7bb4b830e1565a82d6b93f86fe217b9b313250dfbc7",
+      "size": 15072
+    },
+    {
+      "path": "syllogism.md",
+      "sha256": "d9691f5f77db66ba92957ee1687c92a9e99db1cdd1e1d2e5522cbee3ffe03c4b",
+      "size": 9163
+    },
+    {
+      "path": "tls-standards-governance-research.md",
+      "sha256": "c6d9b663080c7d145cb554d7532aad62ddf147830297d3ea87b83849441e8795",
+      "size": 7002
+    },
+    {
+      "path": "verification-report.md",
+      "sha256": "531b421addb2740e797cc3aadfa71f5293ed61daf8ffd0a592c628731875b72e",
+      "size": 613
+    }
+  ],
+  "generated_at": "2026-10-13",
+  "hash_algorithm": "sha256",
+  "payload_file_count": 23,
+  "schema_version": 1,
+  "self_hash_policy": "This manifest is structurally excluded because a file cannot contain its own final digest."
+}
