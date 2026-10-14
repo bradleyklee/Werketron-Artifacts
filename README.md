@@ -23,14 +23,14 @@ Bradley Klee
 
 ## Index
 
-### 00-Spirale-Fibonacci  
+### 01-Spirale-Fibonacci  
 
 Experimental software constructs and verifies Fibonacci-based geometric spirals 
 using a Python 3 implementation. It combines polyomino tiling, terminal graphics, 
 and automated verification to explore the relationship between discrete Fibonacci 
 geometry and the continuous golden spiral. 
 
-### 01-beads-server 
+### 02-beads-server 
 
 A research proposal for extending Beads beyond local agent work tracking into a 
 network-accessible, versioned coordination system. Drawing on TCP/IP layering, 
